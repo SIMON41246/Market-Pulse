@@ -1,0 +1,2637 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="home">
+      <div class="container-16">
+        <div class="section-4">
+          <div class="container-10">
+            <div class="heading-49">
+              <span class="offres-instantanes">
+              Offres Instantanées
+              </span>
+            </div>
+            <div class="heading-22">
+              <span class="explorez-vos-produits">
+              Explorez vos produits
+              </span>
+            </div>
+            <div class="heading-1">
+              <span class="rapidement">
+              rapidement
+              </span>
+            </div>
+            <div class="margin-24">
+              <span class="conomisez-du-temps-et-de-largent-avec-nos-offres-en-temps-rel">
+              Économisez du temps et de l&#39;argent avec nos offres en temps réel !
+              </span>
+            </div>
+            <div class="button-1">
+              <span class="dcouvrir">
+              Découvrir
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="section-3">
+          <div class="margin-19">
+            <div class="overlay-border-shadow-6">
+              <div class="f-1-png">
+              </div>
+              <div class="heading-6">
+                <span class="comparaison-des-prix">
+                Comparaison des prix
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="margin-20">
+            <div class="overlay-border-shadow-7">
+              <div class="f-3-png">
+              </div>
+              <div class="heading-61">
+                <span class="save-money">
+                Save Money
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="margin-21">
+            <div class="overlay-border-shadow-8">
+              <div class="f-4-png">
+              </div>
+              <div class="heading-62">
+                <span class="promotion">
+                Promotion
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="margin-22">
+            <div class="overlay-border-shadow-9">
+              <div class="f-5-png">
+              </div>
+              <div class="heading-63">
+                <span class="happy-sell">
+                Happy sell
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="margin-23">
+            <div class="overlay-border-shadow-10">
+              <div class="f-6-png">
+              </div>
+              <div class="heading-64">
+                <span class="analyse-de-march">
+                Analyse de Marché
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-5">
+          <div class="heading-23">
+            <span class="meilleures-offres">
+            Meilleures offres
+            </span>
+          </div>
+          <div class="container-11">
+            <span class="description-1">
+            Description
+            </span>
+          </div>
+          <div class="container-99">
+            <% for(let i = 0; i < products.length; i++) { %>
+              <div class="margin-25" onclick="redirectTo('<%= products[i].link %>')">
+                <div class="overlay-border-shadow-11">
+                  <img class="img-product" src="<%= products[i].image %>" alt="Dynamic Image">
+                  </img>
+                  <div class="container-13">
+                    <div class="container-21">
+                      <div class="market-pulse-7">
+                      <%= products[i].title %>
+                      </div>
+                      <div class="heading-57">
+                        <span class="cartoon-astronaut-tshirts-7">
+                          <%= products[i].category %>
+                        </span>
+                      </div>
+                      <div class="paragraph-8">
+                        <span class="symbol-46">
+                        
+                        </span>
+                        <span class="symbol-47">
+                        
+                        </span>
+                        <span class="symbol-48">
+                        
+                        </span>
+                        <span class="symbol-49">
+                        
+                        </span>
+                        <span class="symbol-50">
+                        
+                        </span>
+                      </div>
+                      <div class="heading-410">
+                        <span class="container-7">
+                          $<%= products[i].price_min %>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="background-12">
+                      <span class="symbol-51">
+                      
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="container-13">
+                <div class="container-21">
+                    
+                    <img src="<%= products[i].image %>" alt="">
+                  <div class="market-pulse-7">
+                    <%= products[i].title %>
+                  </div>
+                  <div class="heading-57">
+                    <span class="cartoon-astronaut-tshirts-7">
+                    Cartoon Astronaut T-shirts
+                    </span>
+                  </div>
+                  <div class="paragraph-8">
+                    <span class="symbol-46">
+                    
+                    </span>
+                    <span class="symbol-47">
+                    
+                    </span>
+                    <span class="symbol-48">
+                    
+                    </span>
+                    <span class="symbol-49">
+                    
+                    </span>
+                    <span class="symbol-50">
+                    
+                    </span>
+                  </div>
+                  <div class="heading-410">
+                    <span class="container-7">
+                    $129
+                    </span>
+                  </div>
+                </div>
+                <div class="background-12">
+                  <span class="symbol-51">
+                  
+                  </span>
+                </div>
+              </div> -->
+            <% } %>
+          </div>
+        </div>
+        <div class="section">
+          <div class="heading-47">
+            <span class="repair-services">
+            Repair Services
+            </span>
+          </div>
+          <div class="heading-2">
+            <span class="description">
+            Description
+            </span>
+          </div>
+          <div class="button">
+            <span class="dcouvrir-plus">
+            Découvrir plus
+            </span>
+          </div>
+        </div>
+        <div class="heading-21">
+          <span class="categories">
+          Categories
+          </span>
+        </div>
+        <div class="group-3">
+          <div class="section-2">
+            <div class="background-10">
+              <span class="hommes">
+              Hommes
+              </span>
+            </div>
+            <div class="background-11">
+              <span class="femmes">
+              Femmes
+              </span>
+            </div>
+          </div>
+          <div class="section-1">
+            <div class="margin-6">
+              <div class="background-7">
+                <span class="electronics">
+                Electronics
+                </span>
+              </div>
+            </div>
+            <div class="margin-7">
+              <div class="background-8">
+                <span class="accessoires-bijoux-sacs">
+                Accessoires,Bijoux,Sacs
+                </span>
+              </div>
+            </div>
+            <div class="margin-8">
+              <div class="background-9">
+                <span class="tshirts">
+                T-SHIRTS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="divider">
+          </div>
+          <div class="container-18">
+            <div class="margin-9">
+              <div class="container-15">
+                <div class="imgmargin">
+                  <div class="mvertpfe-11">
+                  </div>
+                </div>
+                <div class="heading-4-margin">
+                  <span class="heading-4-contact">
+                  Contact
+                  </span>
+                </div>
+                <div class="margin-10">
+                  <p class="strong-address">
+                  <span class="strong-address-sub-4"></span><span></span>
+                  </p>
+                </div>
+                <div class="margin-11">
+                  <p class="strong-phone">
+                  <span class="strong-phone-sub-4"></span><span></span>
+                  </p>
+                </div>
+                <div class="margin-12">
+                  <p class="strong-hours">
+                  <span class="strong-hours-sub-4"></span><span></span>
+                  </p>
+                </div>
+              </div>
+              <div class="margin-13">
+                <div class="heading-48">
+                  <span class="follow-us">
+                  Follow us
+                  </span>
+                </div>
+                <div class="paragraph-7">
+                  <span class="symbol-42">
+                  
+                  </span>
+                  <span class="symbol-43">
+                  
+                  </span>
+                  <span class="symbol-44">
+                  
+                  </span>
+                  <span class="symbol-45">
+                  
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="margin-14">
+              <div class="heading-4-margin-1">
+                <span class="heading-4-about">
+                About
+                </span>
+              </div>
+              <div class="link-2">
+                <span class="about-us">
+                About Us
+                </span>
+              </div>
+              <div class="link-3">
+                <span class="delivery-information">
+                Delivery Information
+                </span>
+              </div>
+              <div class="link-4">
+                <span class="privacy-poilcy">
+                Privacy Poilcy
+                </span>
+              </div>
+              <div class="link-5">
+                <span class="terms-condition">
+                Terms &amp; Condition
+                </span>
+              </div>
+              <div class="link-6">
+                <span class="contact-us">
+                Contact Us
+                </span>
+              </div>
+            </div>
+            <div class="margin-15">
+              <div class="heading-4-margin-2">
+                <span class="heading-4-my-account">
+                My Account
+                </span>
+              </div>
+              <div class="link-7">
+                <span class="sign-in">
+                Sign In
+                </span>
+              </div>
+              <div class="link-8">
+                <span class="view-cart">
+                View Cart
+                </span>
+              </div>
+              <div class="link-9">
+                <span class="my-wish-list">
+                My WishList
+                </span>
+              </div>
+              <div class="link-10">
+                <span class="track-my-order">
+                Track My Order
+                </span>
+              </div>
+              <div class="link-11">
+                <span class="help">
+                Help
+                </span>
+              </div>
+            </div>
+            <div class="margin-16">
+              <div class="heading-4-margin-3">
+                <span class="heading-4-install-app">
+                Install App
+                </span>
+              </div>
+              <div class="margin-17">
+                <span class="from-app-store-or-google-play">
+                From App Store or Google Play
+                </span>
+              </div>
+              <div class="container-8">
+                <div class="app-jpg">
+                </div>
+                <div class="play-jpg">
+                </div>
+              </div>
+              <div class="margin-18">
+                <span class="secured-payment-gateways">
+                Secured Payment Gateways
+                </span>
+              </div>
+              <div class="imgmargin-1">
+                <div class="pay-png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-9">
+            <span class="ecom-fetch-team-all-rights-reseverd">
+            ©2024 EcomFetch team. All Rights Reseverd.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="link">
+          <div class="mvertpfe-1">
+          </div>
+        </div>
+        <div class="nav">
+          <div class="item">
+            <div class="link-1">
+              <span class="accueil">
+              Accueil
+              </span>
+            </div>
+            <div class="horizontal-divider">
+            </div>
+          </div>
+          <div class="item-1" onclick="redirectTo('/about')">
+            <span class="link-shop">
+            A propos de nous
+            </span>
+          </div>
+        </div>
+        <div class="search-input">
+          <img class="search" src="../assets/vectors/search_x2.svg" />
+          <span class="label">
+          what can we help you find...
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{
+      font-family: "Barlow", sans-serif !important;
+    }
+    .home .offres-instantanes {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-36-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-36-font-weight, 700);
+      font-size: var(--spartan-bold-36-font-size, 36px);
+      color: var(--mine-shaft, #222222);
+    }
+    .home .heading-49 {
+      margin-bottom: 15.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .explorez-vos-produits {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 69px;
+      line-height: 1.174;
+      color: var(--mine-shaft, #222222);
+    }
+    .home .heading-22 {
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .rapidement {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 75px;
+      line-height: 1.28;
+      color: #088178;
+    }
+    .container-99 {
+      margin-right: 20px;
+      margin-left: 50px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px; /* Optional: Adds space between the grid items */
+    }
+    .home .heading-1 {
+      margin-bottom: 14.5px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .conomisez-du-temps-et-de-largent-avec-nos-offres-en-temps-rel {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-16-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-16-font-weight, 400);
+      font-size: var(--spartan-regular-16-font-size, 16px);
+      color: var(--nandor, #465B52);
+    }
+    .home .margin-24 {
+      margin-bottom: 20.4px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .dcouvrir {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .button-1 {
+      background: url('../assets/images/button.png') 100%;
+      display: flex;
+      align-self: flex-start;
+      padding: 13.5px 15px 14.4px 0;
+      width: 225px;
+      box-sizing: border-box;
+    }
+    .home .container-10 {
+      position: absolute;
+      left: 80px;
+      top: 50%;
+      width: 100%;
+      translate: 0 -50%;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+
+    .home {
+      width: 100% !important;
+      background-color: green;
+      padding-top: 70px !important;
+    }
+    .container-16 {
+      width: 100% !important;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .home .section-4 {
+      background: url('../assets/images/img_1_jpg.jpeg');
+      position: relative;
+      margin-bottom: 55px;
+      width: 100vw !important;
+      height: 80vh;
+    }
+    .home .f-1-png {
+      background: url('../assets/images/f_1_png.png');
+      margin-bottom: 17.1px;
+      width: 148.2px;
+      height: 102.4px;
+    }
+    .home .comparaison-des-prix {
+      text-align: center;
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1;
+      color: #088178;
+    }
+    .home .heading-6 {
+      border-radius: 4px;
+      background: var(--pig-pink, #FDDDE4);
+      display: flex;
+      justify-content: center;
+      padding: 9px 2px;
+      width: 148.2px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-6 {
+      box-shadow: 20px 20px 34px 0px rgba(0, 0, 0, 0.03);
+      border-radius: 4px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24.9px 14.9px;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .margin-19 {
+      display: flex;
+      width: 180px;
+      box-sizing: border-box;
+    }
+    .home .f-3-png {
+      background: url('../assets/images/f_3_png.png');
+      margin-bottom: 17.1px;
+      width: 148.2px;
+      height: 102.4px;
+    }
+    .home .save-money {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1;
+      color: #088178;
+    }
+    .home .heading-61 {
+      border-radius: 4px;
+      background: var(--link-water, #D1E8F2);
+      display: flex;
+      justify-content: center;
+      padding: 9px 2px;
+      width: 148.2px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-7 {
+      box-shadow: 20px 20px 34px 0px rgba(0, 0, 0, 0.03);
+      border-radius: 4px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24.9px 14.9px;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .margin-20 {
+      margin: 6px 0;
+      display: flex;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .f-4-png {
+      background: url('../assets/images/f_4_png.png');
+      margin-bottom: 17.1px;
+      width: 148.2px;
+      height: 102.4px;
+    }
+    .home .promotion {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1;
+      color: #088178;
+    }
+    .home .heading-62 {
+      border-radius: 4px;
+      background: var(--amour, #F6DBF6);
+      display: flex;
+      justify-content: center;
+      padding: 9px 2px;
+      width: 148.2px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-8 {
+      box-shadow: 20px 20px 34px 0px rgba(0, 0, 0, 0.03);
+      border-radius: 4px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24.9px 14.9px;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .margin-21 {
+      margin: 6px 0;
+      display: flex;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .f-5-png {
+      background: url('../assets/images/f_5_png.png');
+      margin-bottom: 17.1px;
+      width: 148.2px;
+      height: 102.4px;
+    }
+    .home .happy-sell {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1;
+      color: #088178;
+    }
+    .home .heading-63 {
+      border-radius: 4px;
+      background: var(--moon-raker, #CDD4F8);
+      display: flex;
+      justify-content: center;
+      padding: 9px 2px;
+      width: 148.2px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-9 {
+      box-shadow: 20px 20px 34px 0px rgba(0, 0, 0, 0.03);
+      border-radius: 4px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24.9px 14.9px;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .margin-22 {
+      margin: 6px 0;
+      display: flex;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .f-6-png {
+      background: url('../assets/images/f_6_png.png');
+      margin-bottom: 17.1px;
+      width: 148.2px;
+      height: 102.4px;
+    }
+    .home .analyse-de-march {
+      text-align: center;
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1;
+      color: #088178;
+    }
+    .home .heading-64 {
+      border-radius: 4px;
+      background: var(--bright-turquoise, #FFF2E5);
+      display: flex;
+      justify-content: center;
+      padding: 9px 2px;
+      width: 148.2px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-10 {
+      box-shadow: 20px 20px 34px 0px rgba(0, 0, 0, 0.03);
+      border-radius: 4px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24.9px 14.9px;
+      width: 180px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .margin-23 {
+      display: flex;
+      width: 180px;
+      box-sizing: border-box;
+    }
+    .home .section-3 {
+      margin: 0 80px 83px 80px;
+      display: flex;
+      flex-direction: row;
+      column-gap: 135px;
+      width: 1440px;
+      box-sizing: border-box;
+    }
+    .home .meilleures-offres {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 69px;
+      line-height: 1.174;
+      color: var(--mine-shaft, #222222);
+    }
+    .home .heading-23 {
+      margin: 0 0px 14.5px 0;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .description-1 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-16-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-16-font-weight, 400);
+      font-size: var(--spartan-regular-16-font-size, 16px);
+      color: var(--nandor, #465B52);
+    }
+    .home .container-11 {
+      margin: 0 0 50.4px 0px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .img-product {
+      border-radius: 20px;
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse-7 {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts-7 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-57 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol-46 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-47 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-48 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-49 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-50 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph-8 {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-7 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-410 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-21 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-51 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background-12 {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .container-13 {
+      margin-right: 3px;
+      padding-bottom: 0.4px;
+      width: fit-content;
+      box-sizing: border-box;
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+    }
+    .home .overlay-border-shadow-11 {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      padding: 9.9px 11.9px 19.9px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin-25 {
+      cursor: pointer;
+      margin-right: 37.3px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .f-6-jpg {
+      border-radius: 20px;
+      background: url('../assets/images/f_6_jpg.jpeg');
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-5 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-1 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-2 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-3 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-4 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-4 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-1 {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-24 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-5 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 15.9px;
+      bottom: 20.9px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-12 {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      position: relative;
+      display: flex;
+      padding: 9.9px 11.9px 20.3px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin-26 {
+      margin-right: 37.3px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .f-6-jpg-1 {
+      border-radius: 20px;
+      background: url('../assets/images/f_6_jpg.jpeg');
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse-1 {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts-1 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-51 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol-6 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-7 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-8 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-9 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-10 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph-1 {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-1 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-41 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-2 {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-17 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-11 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background-1 {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 15.9px;
+      bottom: 20.9px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      position: relative;
+      display: flex;
+      padding: 9.9px 11.9px 20.3px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin {
+      margin-right: 37.3px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .f-6-jpg-2 {
+      border-radius: 20px;
+      background: url('../assets/images/f_6_jpg.jpeg');
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse-2 {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts-2 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-52 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol-12 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-13 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-14 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-15 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-16 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph-2 {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-2 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-42 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-3 {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-25 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-17 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background-2 {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 15.9px;
+      bottom: 20.9px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-1 {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      position: relative;
+      display: flex;
+      padding: 9.9px 11.9px 20.3px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin-1 {
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .container-23 {
+      margin-bottom: 29.5px;
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .f-6-jpg-3 {
+      border-radius: 20px;
+      background: url('../assets/images/f_6_jpg.jpeg');
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse-3 {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts-3 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-53 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol-18 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-19 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-20 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-21 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-22 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph-3 {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-3 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-43 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-4 {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-22 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-23 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background-3 {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 15.9px;
+      bottom: 20.9px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-2 {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      position: relative;
+      display: flex;
+      padding: 9.9px 11.9px 20.3px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin-2 {
+      margin-right: 37.3px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .f-6-jpg-4 {
+      border-radius: 20px;
+      background: url('../assets/images/f_6_jpg.jpeg');
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse-4 {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts-4 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-54 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol-24 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-25 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-26 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-27 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-28 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph-4 {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-4 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-44 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-19 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-29 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background-4 {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .container-5 {
+      position: relative;
+      margin-right: 3px;
+      padding-bottom: 0.4px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-3 {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      padding: 9.9px 11.9px 19.9px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin-3 {
+      margin-right: 37.3px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .f-6-jpg-5 {
+      border-radius: 20px;
+      background: url('../assets/images/f_6_jpg.jpeg');
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse-5 {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts-5 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-55 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol-30 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-31 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-32 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-33 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-34 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph-5 {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-5 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-45 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-6 {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-35 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background-5 {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 15.9px;
+      bottom: 20.9px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-4 {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      position: relative;
+      display: flex;
+      padding: 9.9px 11.9px 20.3px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin-4 {
+      margin-right: 37.3px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .f-6-jpg-6 {
+      border-radius: 20px;
+      background: url('../assets/images/f_6_jpg.jpeg');
+      margin-bottom: 17.5px;
+      width: 296.2px;
+      height: 296.2px;
+    }
+    .home .market-pulse-6 {
+      margin-bottom: 7.4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-24-font-weight, 400);
+      font-size: var(--spartan-regular-24-font-size, 24px);
+      color: var(--black, #000000);
+    }
+    .home .cartoon-astronaut-tshirts-6 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-14-font-weight, 700);
+      font-size: var(--spartan-bold-14-font-size, 14px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .heading-56 {
+      margin-bottom: 11.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .symbol-36 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-37 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-38 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-39 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .symbol-40 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 1;
+      color: var(--buttercup, #F3B519);
+    }
+    .home .paragraph-6 {
+      margin-bottom: 12.1px;
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      column-gap: 13.2px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-6 {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-15-font-weight, 700);
+      font-size: var(--spartan-bold-15-font-size, 15px);
+      color: #088178;
+    }
+    .home .heading-46 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-20 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .symbol-41 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.667;
+      color: #088178;
+    }
+    .home .background-6 {
+      border-radius: 50px;
+      background: var(--panache, #E8F6EA);
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      display: flex;
+      padding: 0 13px;
+      box-sizing: border-box;
+    }
+    .home .container-7 {
+      position: relative;
+      margin-right: 3px;
+      padding-bottom: 0.4px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .overlay-border-shadow-5 {
+      box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+      border-radius: 25px;
+      border: 1px solid var(--surf-crest, #CCE7D0);
+      display: flex;
+      flex-direction: column;
+      padding: 9.9px 11.9px 19.9px 11.9px;
+      box-sizing: border-box;
+    }
+    .home .margin-5 {
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .container-14 {
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-12 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .section-5 {
+      margin: 0 100px 119.3px 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .repair-services {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-16-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-16-font-weight, 700);
+      font-size: var(--spartan-bold-16-font-size, 16px);
+      color: var(--nero, #FFFFFF);
+    }
+    .home .heading-47 {
+      margin-bottom: 10.4px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .description {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 2.7;
+      color: #FFFFFF;
+    }
+    .home .heading-2 {
+      margin-bottom: 10px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .dcouvrir-plus {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-semi-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-semi-bold-14-font-weight, 600);
+      font-size: var(--spartan-semi-bold-14-font-size, 14px);
+      color: var(--black, #000000);
+    }
+    .home .button {
+      border-radius: 5px;
+      background: var(--nero, #FFFFFF);
+      display: flex;
+      justify-content: center;
+      padding: 9px 2px;
+      width: 169px;
+      box-sizing: border-box;
+    }
+    .home .section {
+      background: url('../assets/images/section.jpeg') 113.48%;
+      margin-bottom: 18.6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 116.1px 0 116.6px 0;
+      width: 1600px;
+      box-sizing: border-box;
+    }
+    .home .categories {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 69px;
+      line-height: 1.174;
+      color: var(--mine-shaft, #222222);
+    }
+    .home .heading-21 {
+      margin: 0 32px 40px 0;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .hommes {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 2.893;
+      color: var(--nero, #FFFFFF);
+    }
+    .home .background-10 {
+      background: url('../assets/images/background_2.jpeg');
+      margin-right: 43.2px;
+      padding: 209.5px 30px;
+      width: 752px;
+      box-sizing: border-box;
+    }
+    .home .femmes {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 2.893;
+      color: var(--nero, #FFFFFF);
+    }
+    .home .background-11 {
+      background: url('../assets/images/background_4.jpeg');
+      padding: 220.9px 30px 198.1px 30px;
+      width: 752px;
+      box-sizing: border-box;
+    }
+    .home .section-2 {
+      margin: 0 6.7px 79px 0;
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .electronics {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-black-22-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-black-22-font-weight, 900);
+      font-size: var(--spartan-black-22-font-size, 22px);
+      color: var(--nero, #FFFFFF);
+    }
+    .home .background-7 {
+      background: url('../assets/images/background.jpeg') 80%;
+      padding: 137px 20px;
+      box-sizing: border-box;
+    }
+    .home .margin-6 {
+      width: 480px;
+      box-sizing: border-box;
+    }
+    .home .accessoires-bijoux-sacs {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-black-22-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-black-22-font-weight, 900);
+      font-size: var(--spartan-black-22-font-size, 22px);
+      color: #FFFFFF;
+    }
+    .home .background-8 {
+      background: url('../assets/images/background_3.jpeg') 95%;
+      padding: 137px 20px;
+      box-sizing: border-box;
+    }
+    .home .margin-7 {
+      width: 480px;
+      box-sizing: border-box;
+    }
+    .home .tshirts {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-black-22-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-black-22-font-weight, 900);
+      font-size: var(--spartan-black-22-font-size, 22px);
+      color: var(--nero, #FFFFFF);
+    }
+    .home .background-9 {
+      background: url('../assets/images/background_1.jpeg');
+      padding: 137px 20px;
+      box-sizing: border-box;
+    }
+    .home .margin-8 {
+      width: 480px;
+      box-sizing: border-box;
+    }
+    .home .section-1 {
+      margin-left: 17.9px;
+      display: flex;
+      flex-direction: row;
+      column-gap: 48px;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .group-3 {
+      margin: 0 19.5px 122px 26.6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .divider {
+      background: #E6E6E6;
+      margin: 0 80.8px 38px 0;
+      width: 1280px;
+      height: 1px;
+    }
+    .home .mvertpfe-11 {
+      background: url('../assets/images/mvertpfe_1.png') 50% / cover no-repeat;
+      width: 253px;
+      height: 112px;
+    }
+    .home .imgmargin {
+      margin-bottom: 30px;
+      display: flex;
+      align-self: flex-start;
+      width: 253px;
+      height: 112px;
+      box-sizing: border-box;
+    }
+    .home .heading-4-contact {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-141-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-141-font-weight, 700);
+      font-size: var(--spartan-bold-141-font-size, 14px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .heading-4-margin {
+      margin-bottom: 35.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .strong-address {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--nandor-1, #465B52);
+    }
+    .strong-address-sub4 {
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 1.333;
+    }
+    .strong-address {
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 1.333;
+      color: var(--nandor-1, #465B52);
+    }
+    .home .margin-10 {
+      margin-bottom: 23.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .strong-phone {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--nandor-1, #465B52);
+    }
+    .strong-phone-sub4 {
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 1.333;
+    }
+    .strong-phone {
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 1.333;
+      color: var(--nandor-1, #465B52);
+    }
+    .home .margin-11 {
+      margin-bottom: 23.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .strong-hours {
+      overflow-wrap: break-word;
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--nandor-1, #465B52);
+    }
+    .strong-hours-sub4 {
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 1.333;
+    }
+    .strong-hours {
+      font-family: 'Spartan', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 1.333;
+      color: var(--nandor-1, #465B52);
+    }
+    .home .margin-12 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .container-15 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .follow-us {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-141-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-141-font-weight, 700);
+      font-size: var(--spartan-bold-141-font-size, 14px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .heading-48 {
+      margin-bottom: 21.2px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .symbol-42 {
+      margin-right: 19.8px;
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1;
+      color: var(--nandor-1, #465B52);
+    }
+    .home .symbol-43 {
+      margin-right: 16.8px;
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1;
+      color: var(--nandor-1, #465B52);
+    }
+    .home .symbol-44 {
+      margin-right: 16.8px;
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1;
+      color: var(--nandor-1, #465B52);
+    }
+    .home .symbol-45 {
+      overflow-wrap: break-word;
+      font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1;
+      color: var(--nandor-1, #465B52);
+    }
+    .home .paragraph-7 {
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .margin-13 {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .margin-9 {
+      position: relative;
+      margin-right: 214.8px;
+      display: flex;
+      height: 376.4px;
+      box-sizing: border-box;
+    }
+    .home .heading-4-about {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-141-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-141-font-weight, 700);
+      font-size: var(--spartan-bold-141-font-size, 14px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .heading-4-margin-1 {
+      margin-bottom: 20.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .about-us {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-2 {
+      margin-bottom: 0.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .delivery-information {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-3 {
+      margin-bottom: 0.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .privacy-poilcy {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-4 {
+      margin-bottom: 0.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .terms-condition {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-5 {
+      margin: 0 9.1px 0.8px 0;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .contact-us {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-6 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .margin-14 {
+      margin: 0 128.5px 261.4px 0;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .heading-4-my-account {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-141-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-141-font-weight, 700);
+      font-size: var(--spartan-bold-141-font-size, 14px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .heading-4-margin-2 {
+      margin: 0 11.1px 20.8px 0;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .sign-in {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-7 {
+      margin-bottom: 0.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .view-cart {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-8 {
+      margin-bottom: 0.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .my-wish-list {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-9 {
+      margin: 0 15.2px 0.8px 0;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .track-my-order {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-10 {
+      margin-bottom: 0.8px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .help {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .link-11 {
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .margin-15 {
+      margin: 0 121.7px 261.4px 0;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .heading-4-install-app {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-bold-141-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-bold-141-font-weight, 700);
+      font-size: var(--spartan-bold-141-font-size, 14px);
+      color: var(--mine-shaft-1, #222222);
+    }
+    .home .heading-4-margin-3 {
+      margin-bottom: 35.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .from-app-store-or-google-play {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--nandor-1, #465B52);
+    }
+    .home .margin-17 {
+      margin-bottom: 18.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .app-jpg {
+      border-radius: 6px;
+      border: 1px solid var(--elf-green, #088178);
+      background: url('../assets/images/app_jpg.jpeg');
+      margin-right: 6.2px;
+      width: 171.6px;
+      height: 49.6px;
+    }
+    .home .play-jpg {
+      border-radius: 6px;
+      border: 1px solid var(--elf-green, #088178);
+      background: url('../assets/images/play_jpg.jpeg');
+      width: 171.6px;
+      height: 49.6px;
+    }
+    .home .container-8 {
+      margin-bottom: 37.2px;
+      display: flex;
+      flex-direction: row;
+      width: 349.4px;
+      box-sizing: border-box;
+    }
+    .home .secured-payment-gateways {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--nandor-1, #465B52);
+    }
+    .home .margin-18 {
+      margin-bottom: 18.8px;
+      display: flex;
+      align-self: flex-start;
+      box-sizing: border-box;
+    }
+    .home .pay-png {
+      background: url('../assets/images/pay_png.png');
+      width: 224px;
+      height: 32px;
+    }
+    .home .imgmargin-1 {
+      display: flex;
+      align-self: flex-start;
+      width: 224px;
+      height: 32px;
+      box-sizing: border-box;
+    }
+    .home .margin-16 {
+      margin-bottom: 138.2px;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .home .container-18 {
+      margin-bottom: 12.6px;
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .ecom-fetch-team-all-rights-reseverd {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-regular-13-font-weight, 400);
+      font-size: var(--spartan-regular-13-font-size, 13px);
+      color: var(--nandor-1, #465B52);
+    }
+    .home .container-9 {
+      margin-left: 79px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .footer {
+      margin: 0 159.2px 0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    .home .container-16 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+    }
+    .home .mvertpfe-1 {
+      background: url('../assets/images/mvertpfe_1.png') 50% / cover no-repeat;
+      width: 120px;
+      height: 60px;
+    }
+    .home .link {
+      display: flex;
+      width: 253px;
+      height: 112px;
+      box-sizing: border-box;
+    }
+    .link{
+      height: 60px !important;
+    }
+    .home .accueil {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-semi-bold-24-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-semi-bold-24-font-weight, 600);
+      font-size: var(--spartan-semi-bold-24-font-size, 24px);
+      color: #088178;
+    }
+    .home .link-1 {
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .horizontal-divider {
+      background: #088178;
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      width: 35.2px;
+      height: 2px;
+    }
+    .home .item {
+      position: relative;
+      display: flex;
+      padding-bottom: 4.4px;
+      box-sizing: border-box;
+    }
+    .home .link-shop {
+      overflow-wrap: break-word;
+      font-family: var(--spartan-semi-bold-241-font-family, 'Spartan', 'Roboto Condensed');
+      font-weight: var(--spartan-semi-bold-241-font-weight, 600);
+      font-size: var(--spartan-semi-bold-241-font-size, 24px);
+      color: var(--cod-gray, #1A1A1A);
+    }
+    .home .item-1 {
+      cursor: pointer;
+      margin-bottom: 4.4px;
+      display: flex;
+      box-sizing: border-box;
+    }
+    .home .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 299.6px;
+      height: fit-content;
+      box-sizing: border-box;
+    }
+    .home .search {
+      margin-right: 12px;
+      width: 24px;
+      height: 24px;
+    }
+    .home .label {
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1;
+      color: #828282;
+    }
+    .home .search-input {
+      border-radius: 8px;
+      border: 1px solid #E0E0E0;
+      background: #FFFFFF;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      padding: 12px 0 12px 11px;
+      width: 502px;
+      box-sizing: border-box;
+    }
+    .home .header {
+      box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
+      background: var(--snuff, #E3E6F3);
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 12px 50px 12px 50px;
+      box-sizing: border-box;
+    }
+    .home {
+      background: var(--nero, #FFFFFF);
+      display: flex;
+      padding: 134.1px 0 129.3px 0;
+      width: 1600px;
+      box-sizing: border-box;
+    }
+    
+  </style>
+  <script>
+    function redirectTo(url) {
+        window.location.href = url;
+    }
+</script>
+</html>
