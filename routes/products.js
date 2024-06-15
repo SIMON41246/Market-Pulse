@@ -19,6 +19,8 @@ router.get("/:category", async (req, res) => {
   }
 });
 
+
+
 // Get All Products by price_min or just all the products
 router.get("/", async (req, res) => {
   try {
@@ -29,7 +31,7 @@ router.get("/", async (req, res) => {
     } else {
       products = await collection.find();
     }
-    res.render("home",{ products });
+    res.render("home",{ products: products.slice(0,20) });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'Internal Server Error' });

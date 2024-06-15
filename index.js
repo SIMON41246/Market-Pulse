@@ -15,6 +15,11 @@ app.set('view engine', 'ejs');
 
 // Routes
 app.use("/products", products);
+// about
+app.get("/about", async (req, res) =>{
+    console.log("hi");
+    res.render("about")
+})
 
 app.get('/', (req, res) => {
     res.render('index', { title: 'Home Page', message: 'Bienvenue sur MarketPulse' });
