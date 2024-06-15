@@ -1,0 +1,1385 @@
+.market .mvertpfe-11 {
+  background: url('../assets/images/mvertpfe_1.png') 50% / cover no-repeat;
+  width: 253px;
+  height: 112px;
+}
+.market .link-13 {
+  display: flex;
+  width: 253px;
+  height: 112px;
+  box-sizing: border-box;
+}
+.market .accueil {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-semi-bold-24-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-semi-bold-24-font-weight, 600);
+  font-size: var(--spartan-semi-bold-24-font-size, 24px);
+  color: #088178;
+}
+.market .link-14 {
+  display: flex;
+  box-sizing: border-box;
+}
+.market .horizontal-divider {
+  background: #088178;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 35.2px;
+  height: 2px;
+}
+.market .item {
+  position: relative;
+  display: flex;
+  padding-bottom: 4.4px;
+  box-sizing: border-box;
+}
+.market .link-shop {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-semi-bold-241-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-semi-bold-241-font-weight, 600);
+  font-size: var(--spartan-semi-bold-241-font-size, 24px);
+  color: var(--cod-gray, #1A1A1A);
+}
+.market .item-1 {
+  margin-bottom: 4.4px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .nav {
+  margin: 45.6px 0 34.1px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 299.6px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.market .search {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+.market .label-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: #828282;
+}
+.market .search-input {
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  background: #FFFFFF;
+  margin: 27.1px 0 19.9px 0;
+  display: flex;
+  flex-direction: row;
+  padding: 19.5px 0 19.5px 11px;
+  width: 502px;
+  box-sizing: border-box;
+}
+.market .header {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
+  background: var(--snuff, #E3E6F3);
+  margin-bottom: 85.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 80px 27.1px 80px;
+  width: 1876px;
+  box-sizing: border-box;
+}
+.market .accueil-1 {
+  margin: 0 131px 86.5px 131px;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--spartan-semi-bold-24-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-semi-bold-24-font-weight, 600);
+  font-size: var(--spartan-semi-bold-24-font-size, 24px);
+  color: #088178;
+}
+.accueil-1 {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.333;
+  color: #041E42;
+}
+.voir-les-rsultats-dans-120-sur-1454715-rsultats-sub6 {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.333;
+  color: #088178;
+}
+.voir-les-rsultats-dans-120-sur-1454715-rsultats {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.333;
+}
+.market .voir-les-rsultats-dans-120-sur-1454715-rsultats {
+  margin: 27.5px 14px 0 0;
+  width: 998px;
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-24-font-weight, 400);
+  font-size: var(--spartan-regular-24-font-size, 24px);
+  color: var(--black, #000000);
+}
+.voir-les-rsultats-dans-120-sur-1454715-rsultats-sub2 {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.333;
+}
+.voir-les-rsultats-dans-120-sur-1454715-rsultats-sub4 {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.333;
+}
+.market .label {
+  margin-right: 12px;
+  width: 290px;
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #088178;
+}
+.market .vector {
+  width: 12px;
+  height: 6px;
+}
+.market .chevron-down {
+  margin: 9px 0;
+  display: flex;
+  width: 12px;
+  height: 6px;
+  box-sizing: border-box;
+}
+.market .dropdown {
+  border-radius: 8px;
+  border: 1px solid #828282;
+  background: #FFFFFF;
+  margin-bottom: 7.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 21px 11px 15px;
+  width: 352px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.market .group-1 {
+  border-radius: 8px;
+  margin: 0 121px 64px 121px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 1364px;
+  box-sizing: border-box;
+}
+.market .filtres {
+  margin-bottom: 29.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--black, #000000);
+}
+.market .label-2 {
+  margin-right: 12px;
+  width: 263px;
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.market .vector-3 {
+  width: 12px;
+  height: 6px;
+}
+.market .chevron-down-1 {
+  margin: 9px 0;
+  display: flex;
+  width: 12px;
+  height: 6px;
+  box-sizing: border-box;
+}
+.market .dropdown-1 {
+  border-radius: 8px;
+  border-bottom: 1px solid #000000;
+  background: #FFFFFF;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16.5px 22px 15.5px 16px;
+  width: 325px;
+  box-sizing: border-box;
+}
+.market .label-3 {
+  margin-right: 12px;
+  width: 263px;
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.market .vector-4 {
+  width: 12px;
+  height: 6px;
+}
+.market .chevron-down-2 {
+  margin: 9px 0;
+  display: flex;
+  width: 12px;
+  height: 6px;
+  box-sizing: border-box;
+}
+.market .dropdown-2 {
+  border-radius: 8px;
+  border-bottom: 1px solid #000000;
+  background: #FFFFFF;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16.5px 22px 15.5px 16px;
+  width: 325px;
+  box-sizing: border-box;
+}
+.market .label-4 {
+  margin-right: 12px;
+  width: 263px;
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.market .vector-5 {
+  width: 12px;
+  height: 6px;
+}
+.market .chevron-down-3 {
+  margin: 9px 0;
+  display: flex;
+  width: 12px;
+  height: 6px;
+  box-sizing: border-box;
+}
+.market .dropdown-3 {
+  border-radius: 8px;
+  border-bottom: 1px solid #000000;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16.5px 22px 15.5px 16px;
+  width: 325px;
+  box-sizing: border-box;
+}
+.market .group-2 {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 325px;
+  box-sizing: border-box;
+}
+.market .container-13 {
+  margin: 0 28px 1527.9px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .f-1-jpg {
+  border-radius: 20px;
+  background: url('../assets/images/f_1_jpg.jpeg');
+  width: 278.2px;
+  height: 278.2px;
+}
+.market .cartoon-astronaut-tshirts {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--cod-gray-1, #1A1A1A);
+}
+.market .heading-5 {
+  margin-bottom: 26px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .container {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-15-font-weight, 700);
+  font-size: var(--spartan-bold-15-font-size, 15px);
+  color: var(--elf-green, #088178);
+}
+.market .heading-4 {
+  margin-bottom: 20.3px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .description {
+  margin: 0 59.2px 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, 'Inter');
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #828282;
+}
+.market .cliquer-pour-plus-dinformation {
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #FFFFFF;
+}
+.market .button {
+  box-shadow: var(--button-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+  background: #088178;
+  display: flex;
+  padding: 14px 0.8px 14px 0;
+  width: 657px;
+  box-sizing: border-box;
+}
+.market .container {
+  margin: 17.3px 0 68.6px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .ebaylogo-removebg-preview-2 {
+  background: url('../assets/images/ebaylogo_removebg_preview_2.png') 50% / cover no-repeat;
+  margin-bottom: 196.2px;
+  width: 164px;
+  height: 82px;
+}
+.market .container-12 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  box-sizing: border-box;
+}
+.market .symbol {
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.667;
+  color: var(--elf-green, #088178);
+}
+.market .background {
+  border-radius: 50px;
+  background: var(--panache, #E8F6EA);
+  position: absolute;
+  right: 16px;
+  bottom: 20.6px;
+  display: flex;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.market .overlay-border-shadow {
+  box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 25px;
+  border: 1px solid var(--surf-crest, #CCE7D0);
+  position: relative;
+  display: flex;
+  padding: 9.8px 135px 9.8px 11.8px;
+  box-sizing: border-box;
+}
+.market .margin {
+  margin-bottom: 65px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .f-6-jpg {
+  border-radius: 20px;
+  background: url('../assets/images/f_6_jpg.jpeg');
+  margin-top: 0px;
+  width: 278.2px;
+  height: 278.2px;
+}
+.market .cartoon-astronaut-tshirts-1 {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--cod-gray-1, #1A1A1A);
+}
+.market .heading-51 {
+  margin-bottom: 26px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .container-1 {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-15-font-weight, 700);
+  font-size: var(--spartan-bold-15-font-size, 15px);
+  color: var(--elf-green, #088178);
+}
+.market .heading-41 {
+  margin-bottom: 20.3px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .description-1 {
+  margin: 0 59.2px 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, 'Inter');
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #828282;
+}
+.market .cliquer-pour-plus-dinformation-1 {
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #FFFFFF;
+}
+.market .button-1 {
+  box-shadow: var(--button-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+  background: #088178;
+  display: flex;
+  padding: 14px 0.8px 14px 0;
+  width: 657px;
+  box-sizing: border-box;
+}
+.market .container-1 {
+  margin: 17.3px 0 68.6px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .image-2 {
+  background: url('../assets/images/image_2.png') 50% / cover no-repeat;
+  margin-bottom: 228.2px;
+  width: 217px;
+  height: 50px;
+}
+.market .container-7 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  box-sizing: border-box;
+}
+.market .symbol-1 {
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.667;
+  color: var(--elf-green, #088178);
+}
+.market .background-1 {
+  border-radius: 50px;
+  background: var(--panache, #E8F6EA);
+  position: absolute;
+  right: 16px;
+  bottom: 20.6px;
+  display: flex;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.market .overlay-border-shadow-1 {
+  box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 25px;
+  border: 1px solid var(--surf-crest, #CCE7D0);
+  position: relative;
+  display: flex;
+  padding: 9.8px 82px 9.8px 11.8px;
+  box-sizing: border-box;
+}
+.market .margin-1 {
+  margin-bottom: 65px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .f-6-jpg-1 {
+  border-radius: 20px;
+  background: url('../assets/images/f_6_jpg_1.jpeg') 50% / cover no-repeat;
+  width: 278.2px;
+  height: 278.2px;
+}
+.market .cartoon-astronaut-tshirts-2 {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--cod-gray-1, #1A1A1A);
+}
+.market .heading-52 {
+  margin-bottom: 26px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .container-2 {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-15-font-weight, 700);
+  font-size: var(--spartan-bold-15-font-size, 15px);
+  color: var(--elf-green, #088178);
+}
+.market .heading-42 {
+  margin-bottom: 20.3px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .description-2 {
+  margin: 0 59.2px 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, 'Inter');
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #828282;
+}
+.market .cliquer-pour-plus-dinformation-2 {
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #FFFFFF;
+}
+.market .button-2 {
+  box-shadow: var(--button-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+  background: #088178;
+  display: flex;
+  padding: 14px 0.8px 14px 0;
+  width: 657px;
+  box-sizing: border-box;
+}
+.market .container-2 {
+  margin: 17.3px 0 68.6px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .ebaylogo-removebg-preview-21 {
+  background: url('../assets/images/ebaylogo_removebg_preview_2.png') 50% / cover no-repeat;
+  margin-bottom: 196.2px;
+  width: 164px;
+  height: 82px;
+}
+.market .container-15 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  box-sizing: border-box;
+}
+.market .symbol-2 {
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.667;
+  color: var(--elf-green, #088178);
+}
+.market .background-2 {
+  border-radius: 50px;
+  background: var(--panache, #E8F6EA);
+  position: absolute;
+  right: 16px;
+  bottom: 20.6px;
+  display: flex;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.market .overlay-border-shadow-2 {
+  box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 25px;
+  border: 1px solid var(--surf-crest, #CCE7D0);
+  position: relative;
+  display: flex;
+  padding: 9.8px 135px 9.8px 11.8px;
+  box-sizing: border-box;
+}
+.market .margin-2 {
+  margin-bottom: 65px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .f-31 {
+  background: url('../assets/images/f_31.jpeg') 50% / cover no-repeat;
+  width: 278.2px;
+  height: 278.2px;
+}
+.market .cartoon-astronaut-tshirts-3 {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--cod-gray-1, #1A1A1A);
+}
+.market .heading-53 {
+  margin-bottom: 26px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .container-3 {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-15-font-weight, 700);
+  font-size: var(--spartan-bold-15-font-size, 15px);
+  color: var(--elf-green, #088178);
+}
+.market .heading-43 {
+  margin-bottom: 20.3px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .description-3 {
+  margin: 0 59.2px 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, 'Inter');
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #828282;
+}
+.market .cliquer-pour-plus-dinformation-3 {
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #FFFFFF;
+}
+.market .button-3 {
+  box-shadow: var(--button-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+  background: #088178;
+  display: flex;
+  padding: 14px 0.8px 14px 0;
+  width: 657px;
+  box-sizing: border-box;
+}
+.market .container-3 {
+  margin: 17.3px 0 68.6px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .image-21 {
+  background: url('../assets/images/image_2.png') 50% / cover no-repeat;
+  margin-bottom: 228.2px;
+  width: 217px;
+  height: 50px;
+}
+.market .container-9 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  box-sizing: border-box;
+}
+.market .symbol-3 {
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.667;
+  color: var(--elf-green, #088178);
+}
+.market .background-3 {
+  border-radius: 50px;
+  background: var(--panache, #E8F6EA);
+  position: absolute;
+  right: 16px;
+  bottom: 20.6px;
+  display: flex;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.market .overlay-border-shadow-3 {
+  box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 25px;
+  border: 1px solid var(--surf-crest, #CCE7D0);
+  position: relative;
+  display: flex;
+  padding: 9.8px 82px 9.8px 11.8px;
+  box-sizing: border-box;
+}
+.market .margin-3 {
+  margin-bottom: 65px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .f-41 {
+  background: url('../assets/images/f_41.jpeg') 50% / cover no-repeat;
+  width: 278.2px;
+  height: 278.2px;
+}
+.market .cartoon-astronaut-tshirts-4 {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--cod-gray-1, #1A1A1A);
+}
+.market .heading-54 {
+  margin-bottom: 26px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .container-4 {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-15-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-15-font-weight, 700);
+  font-size: var(--spartan-bold-15-font-size, 15px);
+  color: var(--elf-green, #088178);
+}
+.market .heading-44 {
+  margin-bottom: 20.3px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .description-4 {
+  margin: 0 59.2px 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-text-font-family, 'Inter');
+  font-weight: var(--body-text-font-weight, 500);
+  font-size: var(--body-text-font-size, 20px);
+  line-height: var(--body-text-line-height, 1.5);
+  color: #828282;
+}
+.market .cliquer-pour-plus-dinformation-4 {
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 16px);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #FFFFFF;
+}
+.market .button-4 {
+  box-shadow: var(--button-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+  background: #088178;
+  display: flex;
+  padding: 14px 0.8px 14px 0;
+  width: 657px;
+  box-sizing: border-box;
+}
+.market .container-4 {
+  margin: 17.3px 0 68.6px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .ebaylogo-removebg-preview-22 {
+  background: url('../assets/images/ebaylogo_removebg_preview_2.png') 50% / cover no-repeat;
+  margin-bottom: 196.2px;
+  width: 164px;
+  height: 82px;
+}
+.market .container-8 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  box-sizing: border-box;
+}
+.market .symbol-4 {
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.667;
+  color: var(--elf-green, #088178);
+}
+.market .background-4 {
+  border-radius: 50px;
+  background: var(--panache, #E8F6EA);
+  position: absolute;
+  right: 16px;
+  bottom: 20.6px;
+  display: flex;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.market .overlay-border-shadow-4 {
+  box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 25px;
+  border: 1px solid var(--surf-crest, #CCE7D0);
+  position: relative;
+  display: flex;
+  padding: 9.8px 135px 9.8px 11.8px;
+  box-sizing: border-box;
+}
+.market .margin-4 {
+  display: flex;
+  box-sizing: border-box;
+}
+.market .section {
+  margin-top: 3.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.market .container-14 {
+  margin: 0 130px 110.9px 25px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.market .container-5 {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-24-font-weight, 400);
+  font-size: var(--spartan-regular-24-font-size, 24px);
+  color: var(--nero, #FFFFFF);
+}
+.market .link {
+  border-radius: 4px;
+  background: var(--elf-green, #088178);
+  margin-bottom: 0.2px;
+  display: flex;
+  padding: 14.5px 18.6px;
+  box-sizing: border-box;
+}
+.market .container-6 {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-24-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-24-font-weight, 400);
+  font-size: var(--spartan-regular-24-font-size, 24px);
+  color: var(--nero, #FFFFFF);
+}
+.market .link-1 {
+  border-radius: 4px;
+  background: var(--elf-green, #088178);
+  margin-bottom: 0.2px;
+  display: flex;
+  padding: 14.5px 0;
+  width: 58px;
+  box-sizing: border-box;
+}
+.market .symbol-5 {
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Free', 'Roboto Condensed';
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--nero, #FFFFFF);
+}
+.market .link-2 {
+  border-radius: 4px;
+  background: var(--elf-green, #088178);
+  display: flex;
+  padding: 21.8px 0 19.4px 0;
+  width: 54px;
+  box-sizing: border-box;
+}
+.market .section-1 {
+  margin: 0 0 157px 161.8px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  column-gap: 6.2px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.market .divider {
+  background: #E6E6E6;
+  margin: 0 80.8px 38px 0;
+  width: 1280px;
+  height: 1px;
+}
+.market .mvertpfe-1 {
+  background: url('../assets/images/mvertpfe_1.png') 50% / cover no-repeat;
+  width: 253px;
+  height: 112px;
+}
+.market .imgmargin {
+  margin-bottom: 30px;
+  display: flex;
+  align-self: flex-start;
+  width: 253px;
+  height: 112px;
+  box-sizing: border-box;
+}
+.market .heading-4-contact {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-14-font-weight, 700);
+  font-size: var(--spartan-bold-14-font-size, 14px);
+  color: var(--mine-shaft, #222222);
+}
+.market .heading-4-margin {
+  margin-bottom: 35.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .strong-address {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--nandor, #465B52);
+}
+.strong-address-sub4 {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.333;
+}
+.strong-address {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.333;
+  color: var(--nandor, #465B52);
+}
+.market .margin-6 {
+  margin-bottom: 23.8px;
+  display: flex;
+  box-sizing: border-box;
+}
+.strong-phone-sub4 {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.333;
+}
+.strong-phone {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.333;
+  color: var(--nandor, #465B52);
+}
+.market .strong-phone {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--nandor, #465B52);
+}
+.market .margin-7 {
+  margin-bottom: 23.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.strong-hours-sub4 {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.333;
+}
+.strong-hours {
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.333;
+  color: var(--nandor, #465B52);
+}
+.market .strong-hours {
+  overflow-wrap: break-word;
+  font-family: 'Spartan', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--nandor, #465B52);
+}
+.market .margin-8 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .container-11 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .follow-us {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-14-font-weight, 700);
+  font-size: var(--spartan-bold-14-font-size, 14px);
+  color: var(--mine-shaft, #222222);
+}
+.market .heading-45 {
+  margin-bottom: 21.2px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .symbol-6 {
+  margin-right: 19.8px;
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--nandor, #465B52);
+}
+.market .symbol-7 {
+  margin-right: 16.8px;
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--nandor, #465B52);
+}
+.market .symbol-8 {
+  margin-right: 16.8px;
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--nandor, #465B52);
+}
+.market .symbol-9 {
+  overflow-wrap: break-word;
+  font-family: 'Font Awesome 5 Brands', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--nandor, #465B52);
+}
+.market .paragraph {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.market .margin-9 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .margin-5 {
+  position: relative;
+  margin-right: 214.8px;
+  display: flex;
+  height: 376.4px;
+  box-sizing: border-box;
+}
+.market .heading-4-about {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-14-font-weight, 700);
+  font-size: var(--spartan-bold-14-font-size, 14px);
+  color: var(--mine-shaft, #222222);
+}
+.market .heading-4-margin-1 {
+  margin-bottom: 20.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .about-us {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-3 {
+  margin-bottom: 0.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .delivery-information {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-4 {
+  margin-bottom: 0.8px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .privacy-poilcy {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-5 {
+  margin-bottom: 0.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .terms-condition {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-6 {
+  margin: 0 9.1px 0.8px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .contact-us {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-7 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .margin-10 {
+  margin: 0 128.5px 261.4px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .heading-4-my-account {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-14-font-weight, 700);
+  font-size: var(--spartan-bold-14-font-size, 14px);
+  color: var(--mine-shaft, #222222);
+}
+.market .heading-4-margin-2 {
+  margin: 0 11.1px 20.8px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .sign-in {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-8 {
+  margin-bottom: 0.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .view-cart {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-9 {
+  margin-bottom: 0.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .my-wish-list {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-10 {
+  margin: 0 15.2px 0.8px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .track-my-order {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-11 {
+  margin-bottom: 0.8px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .help {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--mine-shaft, #222222);
+}
+.market .link-12 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .margin-11 {
+  margin: 0 121.7px 261.4px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .heading-4-install-app {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-bold-14-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-bold-14-font-weight, 700);
+  font-size: var(--spartan-bold-14-font-size, 14px);
+  color: var(--mine-shaft, #222222);
+}
+.market .heading-4-margin-3 {
+  margin-bottom: 35.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .from-app-store-or-google-play {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--nandor, #465B52);
+}
+.market .margin-13 {
+  margin-bottom: 18.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .app-jpg {
+  border-radius: 6px;
+  border: 1px solid var(--elf-green, #088178);
+  background: url('../assets/images/app_jpg.jpeg');
+  margin-right: 6.2px;
+  width: 171.6px;
+  height: 49.6px;
+}
+.market .play-jpg {
+  border-radius: 6px;
+  border: 1px solid var(--elf-green, #088178);
+  background: url('../assets/images/play_jpg.jpeg');
+  width: 171.6px;
+  height: 49.6px;
+}
+.market .container-5 {
+  margin-bottom: 37.2px;
+  display: flex;
+  flex-direction: row;
+  width: 349.4px;
+  box-sizing: border-box;
+}
+.market .secured-payment-gateways {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--nandor, #465B52);
+}
+.market .margin-14 {
+  margin-bottom: 18.8px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.market .pay-png {
+  background: url('../assets/images/pay_png.png');
+  width: 224px;
+  height: 32px;
+}
+.market .imgmargin-1 {
+  display: flex;
+  align-self: flex-start;
+  width: 224px;
+  height: 32px;
+  box-sizing: border-box;
+}
+.market .margin-12 {
+  margin-bottom: 138.2px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.market .container-10 {
+  margin-bottom: 12.6px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.market .ecom-fetch-team-all-rights-reseverd {
+  overflow-wrap: break-word;
+  font-family: var(--spartan-regular-13-font-family, 'Spartan', 'Roboto Condensed');
+  font-weight: var(--spartan-regular-13-font-weight, 400);
+  font-size: var(--spartan-regular-13-font-size, 13px);
+  color: var(--nandor, #465B52);
+}
+.market .container-6 {
+  margin-left: 355px;
+  display: flex;
+  box-sizing: border-box;
+}
+.market .footer {
+  margin: 0 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.market {
+  background: var(--nero, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 88px;
+  width: 1876px;
+  box-sizing: border-box;
+}

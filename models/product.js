@@ -1,23 +1,15 @@
+// Dans votre fichier models/product.js
+
 const mongoose = require('mongoose');
 
+const productSchema = new mongoose.Schema({
+  title: String,
+  price_min: Number,
+  price_max: Number,
+  shipping: String,
+  link: String,
+  image: String,
+  category: String
+});
 
-
-const productSchema = mongoose.Schema({
-    title: {
-        type: String,
-    },
-    price: {
-        type: String,
-    },
-    shipping: {
-        type: String,
-    },
-    link: {
-        type: String,
-    },
-    image: String,
-    category: String,
-})
-
-
-
+module.exports = mongoose.model('Product', productSchema);
